@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header {
+    height: 50px;
+  }
+
+  .input-area {
+    height: 70px;
+  }
+}
