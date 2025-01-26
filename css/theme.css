@@ -1,0 +1,14 @@
+body.dark-theme {
+    background-color: black;
+    color: #ffffff;
+}
+
+.container.dark-theme {
+    background-color: black;
+}
+
+.header.dark-theme {
+    border-bottom: 0.3px solid #444;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(40px);
+}
