@@ -1,0 +1,48 @@
+.message-options-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.message-options-overlay > div {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+  width: 90%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Add blur effect for cool look */
+  color: #333; /* Default text color */
+  mix-blend-mode: normal; /* Prevents any text from blending weirdly */
+}
+
+.message-options-overlay button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color: rgba(240, 240, 240, 0.9); /* Light background */
+  color: black; /* Text color */
+  font-weight: bold;
+}
+
+.message-options-overlay button:hover {
+  background-color: rgba(200, 200, 200, 0.9);
+  opacity: 0.9;
+}
+
+.message-options-overlay button:active {
+  background-color: rgba(180, 180, 180, 0.9);
+  opacity: 1;
+}
