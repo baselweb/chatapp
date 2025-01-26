@@ -1,0 +1,19 @@
+#toggle-password {
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: #ff7f50;
+    border: none;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#toggle-password:hover {
+    color: #ff4500; 
+    text-decoration: none; 
+}
