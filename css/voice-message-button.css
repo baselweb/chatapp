@@ -1,0 +1,22 @@
+#voice-message-button.recording {
+  background-color: #ff7f50;
+  color: white;
+}
+
+#voice-message-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #202020;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 40px;
+  height: 40px;
+}
